@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flip Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="book">
+      <input type="checkbox" id="c1" />
+      <input type="checkbox" id="c2" />
+      <input type="checkbox" id="c3" />
+      <div id="cover"><img src="1.jpg" /></div>
+      <div class="flip-book">
+        <div class="flip" id="p1">
+          <div class="back">
+            <img src="2.jpg" />
+            <label class="back-btn" for="c1">Back</label>
+          </div>
+          <div class="front">
+            <h2>PEACOCK</h2>
+            <p>
+              The Indian peacock has iridescent blue and green plumage, mostly metallic blue and green, but the green peacock has green and bronze body feathers. In both species, females are a little smaller than males in terms of weight and wingspan, but males are significantly longer due to the "tail", also known as a "train". The peacock train consists not of tail quill feathers, but highly elongated upper tail coverts. 
+            </p>
+            <label class="next-btn" for="c1">Next</label>
+          </div>
+        </div>
+        <div class="flip" id="p2">
+          <div class="back">
+            <img src="3.jpg" />
+            <label class="back-btn" for="c2">Back</label>
+          </div>
+          <div class="front">
+            <h2>MONKEYS</h2>
+            <p>
+              Monkey is a common name that may refer to most simian mammals of infraorder Simiiformes. 
+			  Traditionally, all animals in the group now known as simians are counted as monkeys except the apes;
+			  in the broader sense based on cladistics.
+            </p>
+            <label class="next-btn" for="c2">Next</label>
+          </div>
+        </div>
+
+        <div class="flip" id="p3">
+          <div class="back">
+            <label class="back-btn" for="c3">Back</label>
+          </div>
+          <div class="front">
+            <h2>DOGS</h2>
+            <p>
+             The dog or domestic dog (Canis familiaris or Canis lupus familiaris is a 
+			 domesticated descendant of the wolf, characterized by an upturning tail.
+			 The dog derived from an ancient, extinct wolf,and the modern grey wolf
+			 is the dog's nearest living relative. The dog was the first species to be 
+			 domesticated, by hunter–gatherers over 15,000 years ago, before the development
+			 of agriculture.
+            </p>
+            <label class="next-btn" for="c3">Next</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
